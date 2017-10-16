@@ -1,0 +1,22 @@
+{
+  "name": "sscs/ffmpeg_get_video_length",
+  "type": "library",
+  "description": "获取视频长度，获取视频时长。",
+  "keywords": ["获取视频长度", "获取视频时长", "获取远程视频时长"],
+  "homepage": "https://github.com/AaronZjs/ffmpeg_get_video_length",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "authors": [
+      {
+          "name": "sscs",
+          "email": "laosql@163.com"
+      }
+  ],
+  "autoload": {
+      "psr-4": {
+          "sscs\\ffmpeg_get_video_length\\": "src/"
+      }
+  }
+}
