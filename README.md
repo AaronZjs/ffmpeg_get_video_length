@@ -12,6 +12,9 @@ use sscs\ffmpeg_get_video_length\ffmpegGetVideoLength;
 
 
 $ffmpegGetVideoLength = new ffmpegGetVideoLength();
+
 $uri =  $url.urlencode($value['video']);
+
 $length_time = $ffmpegGetVideoLength->getLength($uri);
+
 echo $length_time;
