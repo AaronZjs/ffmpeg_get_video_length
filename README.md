@@ -15,6 +15,7 @@ $ffmpegGetVideoLength = new ffmpegGetVideoLength();
 
 
 // 如果URL包含空格或特殊符号，可用urlencode进行URL编码后再传入。
+
 $length_time = $ffmpegGetVideoLength->getLength('https://www.baidu.com/aa.mp4');
 
 echo $length_time;
